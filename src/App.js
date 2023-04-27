@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+// import Card from './components/Card';
+import React from 'react';
+import CardList from './components/CardList';
+import Form from './components/Form';
 import './App.css';
 
-function App() {
+function App({title}) {
+  const [profiles, setProfiles] = React.useState([]);
+
+  const addNewProfile = (profile) => {
+    setProfiles(prevProfiles => [...prevProfiles, profile]);
+  }
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-link">{title}</div>
+      <div className="card">
+        <Form onSubmit={addNewProfile}/>
+        <CardList profiles={profiles} />
+      </div>
+      
     </div>
   );
 }

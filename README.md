@@ -1,16 +1,16 @@
-### GitHub Profile Cards App
+### `GitHub Profile Cards App`
 
-# This is a simple app that displays information about GitHub profiles. 
-# It uses the GitHub API to fetch a list of profiles and presents them in a user-friendly format.
+This is a simple app that displays information about GitHub profiles. 
+It uses the GitHub API to fetch a list of profiles and presents them in a user-friendly format.
 
-# To use the app, simply visit https://github-card-app-bb.netlify.app and browse the list of GitHub profiles. 
+To use the app, simply visit https://github-card-app-bb.netlify.app and browse the list of GitHub profiles. 
 
-## Contributing
+## `Contributing`
 
-# This app is open source, and contributions are welcome! To get started, simply fork the repository and make changes as needed. 
-# If you have suggestions for how to improve the app, feel free to submit a pull request.
+This app is open source, and contributions are welcome! To get started, simply fork the repository and make changes as needed. 
+If you have suggestions for how to improve the app, feel free to submit a pull request.
 
-# Thank you for using the GitHub Profile Card App!
+Thank you for using the GitHub Profile Card App!
 
 # Getting Started with Create React App
 
